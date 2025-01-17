@@ -1,21 +1,33 @@
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
--   repo: https://github.com/pre-commit/pre-commit-hooks
+  - repo: meta
+    hooks:
+      - id: check-hooks-apply
+  - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0
     hooks:
-    -   id: trailing-whitespace
-    -   id: end-of-file-fixer
-    -   id: check-yaml
-    -   id: check-added-large-files
-    -   id: check-merge-conflict
--   repo: https://github.com/crate-ci/typos
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-added-large-files
+      - id: check-merge-conflict
+  - repo: https://github.com/crate-ci/typos
     rev: v1.29.4
     hooks:
-    -   id: typos
--   repo: https://github.com/hukkin/mdformat
+      - id: typos
+  - repo: https://github.com/hukkin/mdformat
     rev: 0.7.21
     hooks:
-    -   id: mdformat
+      - id: mdformat
         args: [--number]
         additional_dependencies: [mdformat-toc, mdformat-gfm]
+  - repo: https://github.com/google/yamlfmt
+    rev: v0.14.0
+    hooks:
+      - id: yamlfmt
+  - repo: https://github.com/tcort/markdown-link-check
+    rev: v3.13.6
+    hooks:
+      - id: markdown-link-check
+        args: [-q]
