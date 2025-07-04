@@ -60,7 +60,7 @@ The official [list of supported hooks](https://pre-commit.com/hooks.html) was pr
 
 ### JSON
 
-- http://github.com/bmares/check-json5 - Checks JSON (allows comments, trailing commas, etc.)
+- https://github.com/maresb/check-json5 - Checks JSON syntax (allows comments, trailing commas, etc.)
 - https://github.com/python-jsonschema/check-jsonschema - JSON schema validation
 
 ### Makefile
