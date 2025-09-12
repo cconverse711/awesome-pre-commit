@@ -22,6 +22,7 @@ The official [list of supported hooks](https://pre-commit.com/hooks.html) was pr
   - [YAML](#yaml)
 - [Additional Resources and Tips](#additional-resources-and-tips)
   - [Installing with uv](#installing-with-uv)
+  - [Replacements](#replacements)
   - [Tool Setup](#tool-setup)
     - [`additional_dependencies`](#additional_dependencies)
     - [Dev Environments](#dev-environments)
@@ -123,6 +124,13 @@ uv tool install pre-commit --with pre-commit-uv
 
 For more information, refer to
 https://adamj.eu/tech/2025/05/07/pre-commit-install-uv/
+
+### Replacements
+
+- [prek](https://github.com/j178/prek)
+  - Faster
+  - Uses less disk space
+  - Other enhancements
 
 ### Tool Setup
 
