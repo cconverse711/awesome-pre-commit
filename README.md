@@ -1,3 +1,5 @@
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/cconverse711/awesome-pre-commit/main.svg)](https://results.pre-commit.ci/latest/github/cconverse711/awesome-pre-commit/main)
+
 # Awesome pre-commit
 
 A curated list of awesome [pre-commit](pre-commit.com) hooks and related resources.
