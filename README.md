@@ -2,7 +2,7 @@
 
 # Awesome pre-commit
 
-A curated list of awesome [pre-commit](pre-commit.com) hooks and related resources.
+A curated list of awesome [pre-commit](https://pre-commit.com) hooks and related resources.
 
 The official [list of supported hooks](https://pre-commit.com/hooks.html) was previously a [great resource](https://web.archive.org/web/20231005000108/pre-commit.com/hooks) for discovering new hooks. The new suggested approach of [finding hooks](https://pre-commit.com/hooks.html#finding-hooks) works ok, but it can still be difficult to find what you're looking for, or discover new hooks you didn't know you needed. This repo seeks primarily to serve as that resource.
 
