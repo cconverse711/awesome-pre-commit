@@ -17,6 +17,7 @@ The official [list of supported hooks](https://pre-commit.com/hooks.html) was pr
   - [JSON](#json)
   - [Makefile](#makefile)
   - [Markdown](#markdown)
+  - [OpenEmbedded](#openembedded)
   - [Protocol Buffers](#protocol-buffers)
   - [Python](#python)
   - [Shell](#shell)
@@ -76,6 +77,10 @@ The official [list of supported hooks](https://pre-commit.com/hooks.html) was pr
 - https://github.com/hukkin/mdformat - Formatter
 - https://github.com/tcort/markdown-link-check - Checks for dead hyperlinks
 - https://github.com/lycheeverse/lychee - Checks for dead hyperlinks (faster; works on all text files)
+
+### OpenEmbedded
+
+- https://github.com/priv-kweihmann/oelint-adv - Linting for BitBake files
 
 ### Protocol Buffers
 
