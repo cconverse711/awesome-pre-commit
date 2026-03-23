@@ -75,6 +75,7 @@ The official [list of supported hooks](https://pre-commit.com/hooks.html) was pr
 
 - https://github.com/hukkin/mdformat - Formatter
 - https://github.com/tcort/markdown-link-check - Checks for dead hyperlinks
+- https://github.com/lycheeverse/lychee - Checks for dead hyperlinks (faster; works on all text files)
 
 ### Protocol Buffers
 
