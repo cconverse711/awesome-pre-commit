@@ -112,6 +112,7 @@ The official [list of supported hooks](https://pre-commit.com/hooks.html) was pr
 ### Spellchecking
 
 - https://github.com/crate-ci/typos - Spell checker/fixer
+  - Alternatively, use https://github.com/adhtruong/mirrors-typos to avoid [autoupdate issues](https://github.com/crate-ci/typos/issues/390)
 
 ### YAML
 
