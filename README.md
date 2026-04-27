@@ -20,6 +20,7 @@ The official [list of supported hooks](https://pre-commit.com/hooks.html) was pr
   - [OpenEmbedded](#openembedded)
   - [Protocol Buffers](#protocol-buffers)
   - [Python](#python)
+  - [typescript & javascript](#typescript--javascript)
   - [Shell](#shell)
   - [Spellchecking](#spellchecking)
   - [YAML](#yaml)
@@ -102,6 +103,15 @@ The official [list of supported hooks](https://pre-commit.com/hooks.html) was pr
   - black - Formatter
   - black-jupyter - Formatter (for Jupyter Notebooks)
 
+### Typescript & Javascript
+
+- https://github.com/bneijt/deno-pre-commit - Deno hooks for formatting, linting, and testing
+  - deno-fmt - Formatter
+  - deno-lint - Linter/fixer
+  - deno-fmt-check - Formatting checker
+  - deno-lint-check - Linter
+  - deno-test-system - Test runner
+
 ### Shell
 
 - https://github.com/MaxWinterstein/shfmt-py - Formatter
@@ -113,6 +123,9 @@ The official [list of supported hooks](https://pre-commit.com/hooks.html) was pr
 
 - https://github.com/crate-ci/typos - Spell checker/fixer
   - Alternatively, use https://github.com/adhtruong/mirrors-typos to avoid [autoupdate issues](https://github.com/crate-ci/typos/issues/390)
+- https://github.com/YuniqueUnic/autocorrect-pre-commit - Linter/formatter for CJK copywriting, spacing, words, and punctuation
+  - autocorrect-fix - Formatter/fixer
+  - autocorrect-lint - Linter
 
 ### YAML
 
