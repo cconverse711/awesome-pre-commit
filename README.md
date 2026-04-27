@@ -20,7 +20,7 @@ The official [list of supported hooks](https://pre-commit.com/hooks.html) was pr
   - [OpenEmbedded](#openembedded)
   - [Protocol Buffers](#protocol-buffers)
   - [Python](#python)
-  - [typescript & javascript](#typescript--javascript)
+  - [Typescript & Javascript](#typescript--javascript)
   - [Shell](#shell)
   - [Spellchecking](#spellchecking)
   - [YAML](#yaml)
