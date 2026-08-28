@@ -1,3 +1,6 @@
+ci:
+  # Fails on pre-commit.ci
+  skip: [markdown-link-check]
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
