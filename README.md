@@ -102,6 +102,14 @@ The official [list of supported hooks](https://pre-commit.com/hooks.html) was pr
 - https://github.com/psf/black
   - black - Formatter
   - black-jupyter - Formatter (for Jupyter Notebooks)
+- https://github.com/be-wise-be-kind/thai-lint - Linters for anti-patterns common in AI-generated code; hooks also cover TypeScript, JavaScript and Rust
+  - thailint-dry - Cross-file duplicate code detection
+  - thailint-srp - Single Responsibility Principle violations
+  - thailint-nesting - Excessive nesting depth
+  - thailint-magic-numbers - Unnamed numeric literals
+  - thailint-lazy-ignores - Linter suppressions added without justification
+  - thailint-file-placement - Files outside their allowed directories
+  - thailint-file-header - Missing or non-compliant documentation headers
 
 ### Typescript & Javascript
 
