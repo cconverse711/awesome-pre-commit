@@ -95,6 +95,8 @@ The official [list of supported hooks](https://pre-commit.com/hooks.html) was pr
 - https://github.com/yoheimuta/protolint - Linter
 
 ### Python
+- https://github.com/ege-arhan/diffshield - Zero-overhead semantic diff firewall against silent LLM agent deletions
+  - diffshield - Semantic AST diff analyzer catching dropped functions, error handlers, and assertions
 
 - https://github.com/charliermarsh/ruff-pre-commit
   - ruff - Linter
