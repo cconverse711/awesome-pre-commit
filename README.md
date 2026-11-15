@@ -96,13 +96,22 @@ The official [list of supported hooks](https://pre-commit.com/hooks.html) was pr
 
 ### Python
 
+- https://github.com/ege-arhan/diffshield - Zero-overhead semantic diff firewall against silent LLM agent deletions
+
+  - diffshield - Semantic AST diff analyzer catching dropped functions, error handlers, and assertions
+
 - https://github.com/charliermarsh/ruff-pre-commit
+
   - ruff - Linter
   - ruff-format - Formatter
+
 - https://github.com/psf/black
+
   - black - Formatter
   - black-jupyter - Formatter (for Jupyter Notebooks)
+
 - https://github.com/be-wise-be-kind/thai-lint - Linters for anti-patterns common in AI-generated code; hooks also cover TypeScript, JavaScript and Rust
+
   - thailint-dry - Cross-file duplicate code detection
   - thailint-srp - Single Responsibility Principle violations
   - thailint-nesting - Excessive nesting depth
