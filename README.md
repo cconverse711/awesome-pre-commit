@@ -68,6 +68,7 @@ The official [list of supported hooks](https://pre-commit.com/hooks.html) was pr
 
 - https://github.com/maresb/check-json5 - Checks JSON syntax (allows comments, trailing commas, etc.)
 - https://github.com/python-jsonschema/check-jsonschema - JSON schema validation
+- https://github.com/tb91117/kaggle-dataset-pipelines - Lints Kaggle `dataset-metadata.json` against the data files and cover image (hook id: `kaggle-dataset-lint`)
 
 ### Makefile
 
