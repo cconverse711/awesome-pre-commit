@@ -110,6 +110,8 @@ The official [list of supported hooks](https://pre-commit.com/hooks.html) was pr
   - thailint-lazy-ignores - Linter suppressions added without justification
   - thailint-file-placement - Files outside their allowed directories
   - thailint-file-header - Missing or non-compliant documentation headers
+- https://github.com/hamarshehmhmd/spdxify
+  - spdxify - Checks `pyproject.toml` / `setup.cfg` license metadata for PEP 639 problems (deprecated license tables and `License ::` classifiers, non-SPDX license strings, too-old build backends)
 
 ### Typescript & Javascript
 
